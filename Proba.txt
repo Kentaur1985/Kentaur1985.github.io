@@ -1,0 +1,7 @@
+git add .    Hozzáad a git repóhoz
+
+git commit -m "uzi"
+
+git pull
+
+git push
