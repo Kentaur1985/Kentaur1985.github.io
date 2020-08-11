@@ -1,0 +1,22 @@
+html 
+{background-image: url("kepek/ht4.jpg"); 
+    background-color: rgb(146, 143, 143);
+background-repeat:repeat-x, cover } /* cover -takarás */
+h1 {text-align: center; text-transform: uppercase; color: rgb(107, 101, 101); strong; font-size: 30px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: 800;}
+h2 {text-align: center; text-transform: lowercase; color: rgb(104, 104, 104); strong; font-size: 28px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: 500; }
+h3 {text-align: left; color: rgb(95, 95, 95); strong; font-size: 28px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: 300;}
+h4 {color: rgb(110, 108, 108); strong; font-size: 25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: 300;}
+/* megjegyzéseket a per cillag és a csillag per között lehet*/
+p {color: rgb(82, 80, 80); strong; font-size: 20px; text-align: center; line-height: 30px; max-width: 75%; min-width: 20%;}
+
+#ElsoKiemeltSzoveg {storng; color: green}
+#MasodikKiemeltSzoveg {em; color: red}
+
+ 
+
+/*img {
+    width: 25%; border:solid 1px rgb(128, 128, 128); margin: 5px; padding: 4px; box-shadow: 3px 3px 7px black;}
+*/
+.ElsoOsztaly {color: blue; background-color: lightgreen;}
+.SpanOsztály1 {color: purple; storng}
+.kepOsztaly {margin:20px 40px 20px 40px; background-color: lightgrey;}

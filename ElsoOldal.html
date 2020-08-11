@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <H1>Első oldal.</H1>
+    <H2>Gyakorló szövegek</H2>
+    <H3>Betűméretek</H3>
+    <p>új bekezdés</p>
+    "normál szöveg"
+    <em>"EM a dőlt betűtípus"</em>
+    <strong>Storng a vastagbetű</strong>
+    <a href="/MasodikOldal.html">Link a Második oldalra</a>
+    <p>...</p>
+    <a href="ElsoOldal.html#OldalonBeluliLink">oldalon belüli link</a>
+    <p>új bekezdés</p>
+    <p class="ElsoOsztaly">új bekezdés</p>
+        <p id="ElsoKiemeltSzoveg">kettőskereszttel kell hivatkozni az id-re</p>
+    <p>id="MasodikKiemeltSzoveg">új bekezdés</p>
+    <p>új bekezdés</p>
+    <p><span class="SpanOsztály1">span beállítások alkalmazása ennél a résznél</span></p>
+    <p>új bekezdés</p>
+    <h1> rengeteg megjegyzés az oldal kódjában, vagy a hozzá tartozó css-ben vagy Java filesben találhatók.</h1>
+    <div class="kepOsztaly">
+        <img src="/kepek/ht3.jpg" alt="minta" width="32.2%" > 
+        <img src="/kepek/ht3.jpg" alt="minta" width="32.2%" > 
+        <img src="/kepek/ht3.jpg" alt="minta" width="32.2%" >
+    
+
+    </div>
+
+    <p class="ElsoOsztaly">új bekezdés</p>
+    <!--display: none pontosvessző - azt jelenti, hogy benne marad a kódban, de nem jeleníti meg, feltölti a helyét mással--> 
+    <!--display: block pontosvessző - egy kölön blokkot alkot, külön sorba teszi
+    visibility: hidden pontosvessző - nem jeleníti meg, az elemet, de nem is tölti fel a helyét-->
+
+
+    <p class="ElsoOsztaly">új bekezdés</p>
+    <p>új bekezdés</p>
+    <!--"eltérő mappa estén a link /mappanév/szöveg. kiterjesztés akkor a domaintől keresi"
+    <p>új bekezdés</p>
+    <h4 id="OldalonBeluliLink">Oldalon belüli link is elhelyezhető ID hivatkozással kettőskereszttel</h4>-->
+  
+    <!--position: static - egymás után jönnek az elemek-->
+    <p>position: realtive top: 10px - eltolja 10 pixxelllel az elemet lefele.</p>
+    <p>                   left: 10px - eltolja az elemet 10 pixxellel oldalra</p>
+    <p>position: fixed; top 10 px; left 10 px; - meghatározott helyen fiyen marad az objektum</p>
+    <p>position: absolute - Az első nemstatikus elemhez képest helyezkedik el. a szöveg elé ugrik</p>
+    <p>új bekezdés</p>
+    <img width="32.2%" src="kepek/photo-1588.jpg" alt="farkas">
+
+    <p>képet beszúrni img srcvel lehet az alt a kép neve, ha nem töltene be valamiért</p>
+    <p>képet beilleszteni a Copi relatív path jobbklikkes dologgal lehet legkönnyebben</p>
+    <p>Ekkor a perjeleket át kell fordítani</p>
+    <p>új bekezdés</p>
+    <p>kép is lehet link:</p>
+    <a href="/MasodikOldal.html">
+        <img width="32.2%" src="kepek/letöltés.jpg" alt="linkKép">
+    </a>
+    <p>új bekezdés</p>
+    oldalak közötti navigáció listával
+    <ul>
+        <li>
+            <a href="/ElsoOldal.html">Link az első oldalra</a>
+        </li>
+
+        <li>
+            <a href="/MasodikOldal.html">Link a második oldalra</a>
+        </li>
+        <li>
+            <a href="/HarmadikOldal.html">Link a harmadik oldalra</a>
+        </li>
+        <li>
+            <a href="Urlap.html">Link az űrlapra</a>
+        </li>
+        <li>
+            <a href="bootstrap\bootstrap.html">Link a Bootstrapes feladatra</a>
+        </li>
+        <li>
+            <a href="Selectors\Selectors.html">Link a szelektoros feladatra</a>
+        </li>
+        <li>
+            <a href="JsUrlap.html">Link a javaScripres oldalra</a>
+        </li>
+    </ul>
+</body>
+
+</html>

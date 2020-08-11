@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>  
+    <link rel="stylesheet" href="/bootstrap/bootstrap-4.5.2-dist/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <h2>Renelési adatok</h2>
+                <form action="">
+                    <div class="form-group">
+                        <label for="">Feltét:</label>
+                        <input type="text" name="top-input" class="form-control" >
+                    </div>
+                    <div class="form-group">
+                        <label for="">Mennyiség:</label>
+                        <input type="number" name="amount-input" class="form-control" value="1">
+                        <small Class="form-text text muted">Min. 1, Max. 10 db</small>
+                    </div>
+
+                    <div class="form-group">
+                    Fizetendő összeg: <span class="show-amount">0</span>  Ft
+                    </div>
+
+
+                    <button onclick="calcAmount()"  type="button"  class="btn btn-primary">Megrendelés</button>
+                </form>
+            </div>
+            <div class="col-3"></div>
+        </div>
+    </div>
+
+
+    oldalak közötti navigáció listával
+    <ul>
+        <li>
+            <a href="/ElsoOldal.html">Link az első oldalra</a>
+        </li>
+
+        <li>
+            <a href="/MasodikOldal.html">Link a második oldalra</a>
+        </li>
+        <li>
+            <a href="/HarmadikOldal.html">Link a harmadik oldalra</a>
+        </li>
+        <li>
+            <a href="Urlap.html">Link az űrlapra</a>
+        </li>
+        <li>
+            <a href="bootstrap\bootstrap.html">Link a Bootstrapes feladatra</a>
+        </li>
+        <li>
+            <a href="Selectors\Selectors.html">Link a szelektoros feladatra</a>
+        </li>
+        <li>
+            <a href="JsUrlap.html">Link a javaScripres oldalra</a>
+        </li>
+    </ul>
+
+    <script src="/bootstrap/javascript/Java.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+body {background-color: rgb(195, 230, 241); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 40px; }
+h1 {color: red;}
+
+.login-div {
+    margin: 30px;
+    padding: 20px;
+    border: solid 1 px black;
+    box-shadow: 2px 2px 7px black; 
+    display: inline-block;} /*tartalomhoz igazított keret*/
+}
+
+/*login diven belüli szelektor*/
+
+.login-div input {margin:20px;
+    display: block;
+    margin: 100px;/*display: block;*/
+    
+}
+
+.login-div input:focus {box-shadow: 1px 1px 3px;}
+/* csillag -bárhol a szövegben*/
+/* házikó vagy kaert altg 3 szőköz - azzal kezdődik a szöveg */
+/* dollár jel - azzal végződik a szóveg */
+.login-div input[type="text"] {border: solid 2px blue; }
+
+.login-div input[type="email"] { border: solid 2px blue; }
+
+.login-div input[type="adress"] { border: solid 2px blue; } 
+
+.login-div input[type="password"] {border: solid 2px blue; }
+
+.login-div input:hover {box-shadow: 1px 1px 3px;}
+
+.login-div button {margin-top: 10px; background-color: rgb(185, 226, 169); }
+.login-div button:hover {box-shadow: 1px 1px 3px;}
+
+/* sorozatnál ul, azon belül li esetében elemet kiválasztain a first-child, a :last-child leemekkel lehet.
+Ezen kívül az ul li:nth-child(3) paranccsal is lehet szelektálni*/
+

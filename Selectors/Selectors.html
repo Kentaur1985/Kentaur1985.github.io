@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="selectors.css">
+</head>
+
+<body>
+    <h1>Bejelentkezés az oldalra</h1>
+    <fieldset>
+        <legend>Személyes Adatok</legend>
+    <div class="login-div">
+
+        <div class="csoportosFormazas">
+            <label for="NEV">NÉV:</label>
+            <input id="NEV" name="name" type="text" required>
+        </div>
+
+
+        <div class="csoportosFormazas">
+            <label for="adress">CÍM:</label>
+            <input id="adress" name="address" type="text">
+        </div>
+
+
+        <div class="csoportosFormazas">
+            <label for="email">EMAIL:</label>
+            <input id="email" type="email" name="email">
+        </div>
+
+        <div class="csoportosFormazas">
+            <label for="password">JELSZÓ:</label>
+            <input id="password" type="password" name="password">
+        </div>
+
+
+        <div class="csoportosFormazas">
+            <button class="bevitel">BELÉPÉS</button>
+        </div>
+    </div>
+</fieldset>
+
+<fieldset>
+    <legend>Gombok</legend>
+    <div class="választhatóPontok">
+        <div class="Gombok">
+            <label for="Elso">Első:</label>
+            <input id="Elso" name="ELSO" type="checkbox" value="0">
+        </div>
+
+        <div class="Gombok">
+            <label for="Masodik">Második:</label>
+            <input id="Masodik" name="Masodik" type="checkbox" value="300">
+        </div>
+
+        <div class="Gombok">
+            <label for="Harmadik">Harmadik:</label>
+            <input id="Harmadik" name="Masodik" type="checkbox" value="300">
+        </div>
+
+        <div class="Gombok">
+            <label for="Negyedik">Negyedik:</label>
+            <input id="Negyedik" name="M" type="checkbox" value="300">
+        </div>
+    </div>
+</fieldset>
+    /* bepilálható cheackboxok esetén minden box más nevet kap, így többet is bepipálhatunk */
+<fieldset>
+    <legend>Rádiogombok</legend>
+    <div class="RádioGombok">
+        <div class="Gombok">
+            <label for="Radio1">Első:</label>
+            <input id="Radio1" name="Radio1" type="radio" value="0">
+        </div>
+
+        <div class="Gombok">
+            <label for="Radio2">Második:</label>
+            <input id="Radio2" name="Radio1" type="radio" value="300">
+        </div>
+
+        <div class="Gombok">
+            <label for="Radio3">Harmadik:</label>
+            <input id="Radio3" name="Radio1" type="radio" value="300">
+        </div>
+
+        <div class="Gombok">
+            <label for="Radio4">Negyedik:</label>
+            <input id="Radio4" name="Radio1" type="radio" value="300">
+        </div>
+    </div>
+</fieldset>
+   
+    
+
+    /* kiválasztás esetén minden elem azonos nevet kap, ilyenkor a rádiógombokból csak egyet lehet bepipálni*/
+</body>
+
+</html>
