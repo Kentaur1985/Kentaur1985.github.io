@@ -1,2 +1,0 @@
-# Elso-tarolo
-Teszt-tarolo
